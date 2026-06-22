@@ -1,335 +1,425 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rockies Custom Tours | Private Banff & Lake Louise SUV Tours From Calgary</title>
-  <meta name="description" content="Private luxury SUV tours from Calgary to Banff, Lake Louise, Bow Falls, Surprise Corner, Marble Canyon, Radium Hot Springs and the Icefields Parkway. Flexible itineraries, Black Chevrolet Tahoe, up to 6 guests." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rockies Custom Tours — Luxury Black Edition private tours from Calgary</title>
+  <meta name="description" content="Rockies Custom Tours — Luxury private tours from Calgary in a Black Chevrolet Tahoe. Up to 6 guests, child seats available, complimentary one-way airport or downtown Calgary transfer for guests who purchase a tour." />
+  <meta name="keywords" content="Calgary tours, Banff, Lake Louise, Icefields Parkway, private tours, luxury tours, Rockies" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top"><span>Rockies</span> Custom Tours</a>
-    <nav>
-      <a href="#tours">Tours</a>
-      <a href="#black-edition">Black Edition</a>
-      <a href="#why">Why Us</a>
-      <a href="#booking">Book</a>
-    </nav>
+    <div class="container header-inner">
+      <a class="brand" href="#home">Rockies Custom Tours<span class="sub"> — Luxury Black Edition</span></a>
+      <nav id="main-nav" class="main-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#why">Why Choose Us</a></li>
+          <li><a href="#tours">Tours</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
   </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <p class="eyebrow">Private Chevrolet Tahoe Tours From Calgary</p>
-        <h1>Explore Banff, Lake Louise & the Canadian Rockies Your Way</h1>
-        <p class="hero-text">Luxury Black Edition experiences for couples, families and small groups up to 6 guests. Every route is private, flexible and fully personalized.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#tours">View Private Tours</a>
-          <a class="btn secondary" href="tel:+15878936384">Call 587-893-6384</a>
+  <main>
+    <!-- Home / Hero -->
+    <section id="home" class="hero" style="background-image:url('images/hero-banff.jpg')">
+      <div class="hero-overlay container">
+        <div class="hero-top">
+          <h1>Rockies Custom Tours</h1>
+          <p class="eyebrow">Luxury Black Edition — Private Tours from Calgary</p>
         </div>
-        <div class="trust-row">
-          <span>Private SUV</span><span>Up to 6 Guests</span><span>Child Seats</span><span>Calgary Pickup</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="intro section">
-      <div>
-        <p class="eyebrow">Not a bus tour</p>
-        <h2>A private Rockies experience built around you.</h2>
-      </div>
-      <p>Unlike fixed group tours, Rockies Custom Tours is designed around your pace, your interests and the weather of the day. Choose one of our signature routes, then mix destinations where the mood and conditions allow.</p>
-    </section>
-
-    <section id="tours" class="section dark-section">
-      <div class="section-heading">
-        <p class="eyebrow">Signature Experiences</p>
-        <h2>Private Tour Programs</h2>
-        <p>Each tour is a suggested route. We can adjust stops, timing and photo locations for families, couples and small groups.</p>
-      </div>
-
-      <div class="tour-grid">
-        <!-- 1. Banff Essentials -->
-        <article class="tour-card">
-          <div class="card-media" style="background-image:url('images/banff-town.jpg')" aria-hidden="true"></div>
-          <div class="tour-content">
-            <div class="tour-top"><span>Full Day</span><span>Banff Essentials</span></div>
-            <h3>Banff Essentials</h3>
-            <p>Classic Banff highlights, perfect for first-time visitors and photographers.</p>
-            <ul>
-              <li>Banff Town</li>
-              <li>Bow Falls</li>
-              <li>Surprise Corner</li>
-              <li>Lake Minnewanka</li>
-            </ul>
-            <div class="tour-actions">
-              <button class="btn btn-sm" data-tour="Banff Essentials">Request This Tour</button>
-              <button class="btn btn-link toggle-route" data-target="route-banff">View Route & Distance</button>
-            </div>
-
-            <div id="route-banff" class="route-panel" aria-hidden="true">
-              <h4>Tour Route & Distance</h4>
-              <ol class="timeline">
-                <li class="timeline-item"><strong>Calgary</strong> �� <strong>Canmore</strong> <span class="meta">105 km • 1h 10m</span></li>
-                <li class="timeline-item"><strong>Canmore</strong> → <strong>Banff Town</strong> <span class="meta">25 km • 20m</span></li>
-                <li class="timeline-item"><strong>Banff Town</strong> → <strong>Bow Falls</strong> <span class="meta">3 km • 5m</span></li>
-                <li class="timeline-item"><strong>Bow Falls</strong> → <strong>Surprise Corner</strong> <span class="meta">2 km • 5m</span></li>
-                <li class="timeline-item"><strong>Surprise Corner</strong> → <strong>Lake Minnewanka</strong> <span class="meta">15 km • 20m</span></li>
-                <li class="timeline-item"><strong>Lake Minnewanka</strong> → <strong>Calgary</strong> <span class="meta">145 km • 1h 45m</span></li>
-              </ol>
-
-              <div class="map-placeholder">Map placeholder — Elegant map will appear here (no API yet)</div>
-              <p class="route-note">Every itinerary is flexible. Routes, timing and destinations may change depending on weather, road conditions and guest preferences.</p>
-            </div>
-          </div>
-        </article>
-
-        <!-- 2. Lake Louise Experience -->
-        <article class="tour-card">
-          <div class="card-media" style="background-image:url('images/lake-louise.jpg')" aria-hidden="true"></div>
-          <div class="tour-content">
-            <div class="tour-top"><span>Full Day</span><span>Lake Louise</span></div>
-            <h3>Lake Louise Experience</h3>
-            <p>Iconic alpine lakes and mountain scenery. Moraine Lake access is seasonal.</p>
-            <ul>
-              <li>Lake Louise</li>
-              <li>Moraine Lake (seasonal)</li>
-              <li>Johnston Canyon (optional)</li>
-            </ul>
-            <div class="tour-actions">
-              <button class="btn btn-sm" data-tour="Lake Louise Experience">Request This Tour</button>
-              <button class="btn btn-link toggle-route" data-target="route-lakelouise">View Route & Distance</button>
-            </div>
-
-            <div id="route-lakelouise" class="route-panel" aria-hidden="true">
-              <h4>Tour Route & Distance</h4>
-              <ol class="timeline">
-                <li class="timeline-item"><strong>Calgary</strong> → <strong>Banff</strong> <span class="meta">130 km • 1h 30m</span></li>
-                <li class="timeline-item"><strong>Banff</strong> → <strong>Lake Louise</strong> <span class="meta">60 km • 45m</span></li>
-                <li class="timeline-item"><strong>Lake Louise</strong> → <strong>Moraine Lake</strong> <span class="meta">14 km • 20m (seasonal)</span></li>
-                <li class="timeline-item"><strong>Lake Louise</strong> → <strong>Calgary</strong> <span class="meta">185 km • 2h</span></li>
-              </ol>
-
-              <div class="map-placeholder">Map placeholder — Elegant map will appear here (no API yet)</div>
-              <p class="route-note">Every itinerary is flexible. Routes, timing and destinations may change depending on weather, road conditions and guest preferences.</p>
-            </div>
-          </div>
-        </article>
-
-        <!-- 3. Yoho & Emerald Lake -->
-        <article class="tour-card">
-          <div class="card-media" style="background-image:url('images/emerald-lake.jpg')" aria-hidden="true"></div>
-          <div class="tour-content">
-            <div class="tour-top"><span>Full Day</span><span>Yoho & Emerald Lake</span></div>
-            <h3>Yoho & Emerald Lake</h3>
-            <p>A serene Kootenay/Yoho day trip to Emerald Lake and nearby natural landmarks.</p>
-            <ul>
-              <li>Lake Louise</li>
-              <li>Natural Bridge</li>
-              <li>Emerald Lake</li>
-            </ul>
-            <div class="tour-actions">
-              <button class="btn btn-sm" data-tour="Yoho & Emerald Lake">Request This Tour</button>
-              <button class="btn btn-link toggle-route" data-target="route-yoho">View Route & Distance</button>
-            </div>
-
-            <div id="route-yoho" class="route-panel" aria-hidden="true">
-              <h4>Tour Route & Distance</h4>
-              <ol class="timeline">
-                <li class="timeline-item"><strong>Calgary</strong> → <strong>Lake Louise</strong> <span class="meta">185 km • 2h</span></li>
-                <li class="timeline-item"><strong>Lake Louise</strong> → <strong>Natural Bridge</strong> <span class="meta">15 km • 15m</span></li>
-                <li class="timeline-item"><strong>Natural Bridge</strong> → <strong>Emerald Lake</strong> <span class="meta">9 km • 10m</span></li>
-                <li class="timeline-item"><strong>Emerald Lake</strong> → <strong>Calgary</strong> <span class="meta">205 km • 2h 20m</span></li>
-              </ol>
-
-              <div class="map-placeholder">Map placeholder — Elegant map will appear here (no API yet)</div>
-              <p class="route-note">Every itinerary is flexible. Routes, timing and destinations may change depending on weather, road conditions and guest preferences.</p>
-            </div>
-          </div>
-        </article>
-
-        <!-- 4. Marble Canyon & Radium Hot Springs -->
-        <article class="tour-card">
-          <div class="card-media" style="background-image:url('images/marble-canyon.jpg')" aria-hidden="true"></div>
-          <div class="tour-content">
-            <div class="tour-top"><span>Full Day</span><span>Marble Canyon & Radium</span></div>
-            <h3>Marble Canyon & Radium Hot Springs</h3>
-            <p>Combine Marble Canyon viewpoints with a relaxing hot springs stop and alpine town views.</p>
-            <ul>
-              <li>Marble Canyon</li>
-              <li>Radium Hot Springs</li>
-              <li>Canmore</li>
-            </ul>
-            <div class="tour-actions">
-              <button class="btn btn-sm" data-tour="Marble Canyon & Radium">Request This Tour</button>
-              <button class="btn btn-link toggle-route" data-target="route-marble">View Route & Distance</button>
-            </div>
-
-            <div id="route-marble" class="route-panel" aria-hidden="true">
-              <h4>Tour Route & Distance</h4>
-              <ol class="timeline">
-                <li class="timeline-item"><strong>Calgary</strong> → <strong>Banff</strong> <span class="meta">130 km • 1h 30m</span></li>
-                <li class="timeline-item"><strong>Banff</strong> → <strong>Marble Canyon</strong> <span class="meta">45 km • 35m</span></li>
-                <li class="timeline-item"><strong>Marble Canyon</strong> → <strong>Radium Hot Springs</strong> <span class="meta">40 km • 35m</span></li>
-                <li class="timeline-item"><strong>Radium</strong> → <strong>Canmore</strong> <span class="meta">105 km • 1h 15m</span></li>
-                <li class="timeline-item"><strong>Canmore</strong> → <strong>Calgary</strong> <span class="meta">105 km • 1h</span></li>
-              </ol>
-
-              <div class="map-placeholder">Map placeholder — Elegant map will appear here (no API yet)</div>
-              <p class="route-note">Every itinerary is flexible. Routes, timing and destinations may change depending on weather, road conditions and guest preferences.</p>
-            </div>
-          </div>
-        </article>
-
-        <!-- 5. Icefields Parkway Explorer -->
-        <article class="tour-card">
-          <div class="card-media" style="background-image:url('images/icefields.jpg')" aria-hidden="true"></div>
-          <div class="tour-content">
-            <div class="tour-top"><span>Full Day</span><span>Icefields Parkway</span></div>
-            <h3>Icefields Parkway Explorer</h3>
-            <p>Drive one of the most scenic highways in the world with glacier-fed lakes and dramatic viewpoints.</p>
-            <ul>
-              <li>Bow Lake</li>
-              <li>Peyto Lake</li>
-              <li>Crowfoot Glacier</li>
-            </ul>
-            <div class="tour-actions">
-              <button class="btn btn-sm" data-tour="Icefields Parkway Explorer">Request This Tour</button>
-              <button class="btn btn-link toggle-route" data-target="route-icefields">View Route & Distance</button>
-            </div>
-
-            <div id="route-icefields" class="route-panel" aria-hidden="true">
-              <h4>Tour Route & Distance</h4>
-              <ol class="timeline">
-                <li class="timeline-item"><strong>Calgary</strong> → <strong>Lake Louise</strong> <span class="meta">185 km • 2h</span></li>
-                <li class="timeline-item"><strong>Lake Louise</strong> → <strong>Bow Lake</strong> <span class="meta">38 km • 30m</span></li>
-                <li class="timeline-item"><strong>Bow Lake</strong> → <strong>Peyto Lake</strong> <span class="meta">6 km • 8m</span></li>
-                <li class="timeline-item"><strong>Peyto Lake</strong> → <strong>Crowfoot Glacier</strong> <span class="meta">5 km • 5m</span></li>
-                <li class="timeline-item"><strong>Peyto Lake</strong> → <strong>Calgary</strong> <span class="meta">225 km • 2h 45m</span></li>
-              </ol>
-
-              <div class="map-placeholder">Map placeholder — Elegant map will appear here (no API yet)</div>
-              <p class="route-note">Every itinerary is flexible. Routes, timing and destinations may change depending on weather, road conditions and guest preferences.</p>
-            </div>
-          </div>
-        </article>
-
-        <!-- 6. Drumheller Dinosaur Escape -->
-        <article class="tour-card">
-          <div class="card-media" style="background-image:url('images/drumheller.jpg')" aria-hidden="true"></div>
-          <div class="tour-content">
-            <div class="tour-top"><span>Full Day</span><span>Drumheller</span></div>
-            <h3>Drumheller Dinosaur Escape</h3>
-            <p>Step into the Badlands for dinosaur history, hoodoos and dramatic canyon views.</p>
-            <ul>
-              <li>Horseshoe Canyon</li>
-              <li>Royal Tyrrell Museum</li>
-              <li>Hoodoos</li>
-            </ul>
-            <div class="tour-actions">
-              <button class="btn btn-sm" data-tour="Drumheller Dinosaur Escape">Request This Tour</button>
-              <button class="btn btn-link toggle-route" data-target="route-drumheller">View Route & Distance</button>
-            </div>
-
-            <div id="route-drumheller" class="route-panel" aria-hidden="true">
-              <h4>Tour Route & Distance</h4>
-              <ol class="timeline">
-                <li class="timeline-item"><strong>Calgary</strong> → <strong>Horseshoe Canyon</strong> <span class="meta">130 km • 1h 35m</span></li>
-                <li class="timeline-item"><strong>Horseshoe Canyon</strong> → <strong>Royal Tyrrell Museum</strong> <span class="meta">18 km • 20m</span></li>
-                <li class="timeline-item"><strong>Royal Tyrrell Museum</strong> → <strong>Hoodoos</strong> <span class="meta">17 km • 20m</span></li>
-                <li class="timeline-item"><strong>Drumheller</strong> → <strong>Calgary</strong> <span class="meta">135 km • 1h 40m</span></li>
-              </ol>
-
-              <div class="map-placeholder">Map placeholder — Elegant map will appear here (no API yet)</div>
-              <p class="route-note">Every itinerary is flexible. Routes, timing and destinations may change depending on weather, road conditions and guest preferences.</p>
-            </div>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-    <section id="black-edition" class="section black-edition">
-      <div class="edition-copy">
-        <p class="eyebrow">Luxury Black Edition</p>
-        <h2>Private Black Chevrolet Tahoe</h2>
-        <p>Travel in comfort with a spacious private SUV designed for couples, families and groups up to 6 guests. Your tour includes Calgary pickup, flexible stops, bottled water, and professional driver-guide service.</p>
-        <div class="price-box">
-          <span>Private tours starting from</span>
-          <strong>$600 CAD</strong>
+        <p class="lead">Private tours in a Black Chevrolet Tahoe. Up to 6 guests. Child seats available. Flexible itineraries tailored for families, couples and small groups.</p>
+        <p class="highlight">Complimentary one‑way Airport or Downtown Calgary transfer when you purchase a tour.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#tours">View Tours</a>
+          <a class="btn btn-outline" href="#book">Book Now</a>
         </div>
       </div>
-      <div class="benefits">
-        <div>🚙 Premium Chevrolet Tahoe</div>
-        <div>👨‍👩‍👧‍👦 Up to 6 Guests</div>
-        <div>👶 Child Seats Available</div>
-        <div>✈️ Free one-way Airport or Downtown transfer for tour guests</div>
-        <div>☕ Coffee, tea, water & snacks</div>
-        <div>🗺️ Flexible custom itinerary</div>
-      </div>
     </section>
 
-    <section id="why" class="section why-grid">
-      <div class="section-heading left">
-        <p class="eyebrow">Why Choose Us</p>
-        <h2>Private, flexible and premium.</h2>
-        <p>No strangers. No large bus. No rushed schedule. Just your group, your route and the Canadian Rockies.</p>
-      </div>
-      <div class="why-cards">
-        <div><h3>Private Experience</h3><p>Only your group travels in the vehicle.</p></div>
-        <div><h3>Flexible Itinerary</h3><p>Stops can be adjusted based on weather and preference.</p></div>
-        <div><h3>Family Ready</h3><p>Child seats available for young travellers.</p></div>
-        <div><h3>Calgary Based</h3><p>Pickup from Calgary hotel, residence or downtown area.</p></div>
-      </div>
-    </section>
+    <!-- About Us -->
+    <section id="about" class="section about container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>About Rockies Custom Tours</h2>
+          <p>Based in Calgary, we specialise in private luxury tours throughout the Canadian Rockies. Travel in our Black Chevrolet Tahoe with a professional driver-guide who knows the best photo stops and quiet viewpoints. We welcome couples, families and small groups — every itinerary is private and fully customizable.</p>
 
-    <section class="section gallery">
-      <div class="section-heading">
-        <p class="eyebrow">Rockies Routes</p>
-        <h2>Inspired by Banff, Lake Louise, Canmore & Kootenay</h2>
-      </div>
-      <div class="gallery-grid">
-        <div class="gallery-item" style="background-image:url('images/lake-louise.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('images/banff-town.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('images/icefields.jpg')"></div>
-        <div class="gallery-item" style="background-image:url('images/drumheller.jpg')"></div>
-      </div>
-    </section>
-
-    <section id="booking" class="section booking">
-      <div>
-        <p class="eyebrow">Contact & Booking</p>
-        <h2>Plan your private Rockies day.</h2>
-        <p>Tell us your preferred date, number of guests and destinations. We will suggest the best route for your group.</p>
-        <div class="contact-lines">
-          <a href="tel:+15878936384">📞 587-893-6384</a>
-          <a href="mailto:info@rockiescustomtours.ca">✉️ info@rockiescustomtours.ca</a>
+          <ul class="features">
+            <li><strong>Vehicle:</strong> Black Chevrolet Tahoe SUV</li>
+            <li><strong>Capacity:</strong> Up to 6 guests</li>
+            <li><strong>Child seats:</strong> Available on request</li>
+            <li><strong>Included:</strong> Premium coffee, tea, snacks and bottled water; photography stops</li>
+            <li><strong>Transfer:</strong> Complimentary one-way Airport or Downtown Calgary transfer for guests who purchase a tour</li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <div class="img" style="background-image:url('images/banff-town.jpg')"><span class="img-label">Banff Town — Canadian Rockies</span></div>
         </div>
       </div>
-      <form id="booking-form" action="#" method="post">
-        <input type="text" name="Name" placeholder="Your name" required>
-        <input type="email" name="Email" placeholder="Email address" required>
-        <input type="tel" name="Phone" placeholder="Phone number">
-        <input type="text" name="Date" placeholder="Preferred date">
-        <select name="Tour">
-          <option>Banff Essentials</option>
-          <option>Lake Louise Experience</option>
-          <option>Yoho & Emerald Lake</option>
-          <option>Marble Canyon & Radium Hot Springs</option>
-          <option>Icefields Parkway Explorer</option>
-          <option>Drumheller Dinosaur Escape</option>
-        </select>
-        <textarea name="Message" placeholder="Number of guests, child seat needs, preferred stops"></textarea>
-        <button class="btn primary" type="submit">Send Booking Request</button>
-      </form>
     </section>
+
+    <!-- Why Choose Us -->
+    <section id="why" class="section why container">
+      <h2>Why Choose Rockies Custom Tours</h2>
+      <div class="why-grid">
+        <div class="card"><h3>Private & Personalized</h3><p>Only your group in the vehicle. We tailor stops, timing and pace to your preferences.</p></div>
+        <div class="card"><h3>Luxury Vehicle</h3><p>Black Chevrolet Tahoe with space for luggage and comfortable seating for up to 6 guests.</p></div>
+        <div class="card"><h3>Family Friendly</h3><p>Child seats provided on request — perfect for families and couples.</p></div>
+        <div class="card"><h3>Local Knowledge</h3><p>Driver-guides familiar with weather, light and photography opportunities for the best experience.</p></div>
+      </div>
+    </section>
+
+    <!-- Tours -->
+    <section id="tours" class="section tours container">
+      <h2>Our Tours</h2>
+      <p class="subtle">Suggested departure and return times are shown for planning; all itineraries are flexible and can be modified to suit your group.</p>
+
+      <div class="tours-list">
+
+        <!-- Tour 1 -->
+        <article class="tour">
+          <div class="tour-head">
+            <div class="media" style="background-image:url('images/lake-louise.jpg')"></div>
+            <div class="tour-meta">
+              <h3>Banff, Lake Louise, Bow Falls & Surprise Corner</h3>
+              <p class="summary">Classic first-time itinerary covering Banff town, famous viewpoints and Lake Minnewanka photo stops.</p>
+              <ul class="quick-features"><li>Suggested departure: 08:00</li><li>Suggested return: 17:30</li><li>Duration: ~9.5 hours</li></ul>
+            </div>
+          </div>
+
+          <div class="tour-body">
+            <h4>Stops (in order)</h4>
+            <ol class="stops"><li>Calgary</li><li>Canmore</li><li>Banff Town</li><li>Bow Falls</li><li>Surprise Corner</li><li>Lake Minnewanka</li><li>Calgary (return)</li></ol>
+
+            <h4>Route & Distance</h4>
+            <ol class="timeline">
+              <li><span class="stop">Calgary → Canmore</span><span class="meta">105 km • 1h 10m</span></li>
+              <li><span class="stop">Canmore → Banff Town</span><span class="meta">25 km • 20m</span></li>
+              <li><span class="stop">Banff Town → Bow Falls</span><span class="meta">3 km • 5m</span></li>
+              <li><span class="stop">Bow Falls → Surprise Corner</span><span class="meta">2 km • 5m</span></li>
+              <li><span class="stop">Surprise Corner → Lake Minnewanka</span><span class="meta">15 km • 20m</span></li>
+              <li><span class="stop">Lake Minnewanka → Calgary</span><span class="meta">145 km • 1h 45m</span></li>
+            </ol>
+
+            <div class="map-and-note">
+              <div class="map-placeholder">Map placeholder — Banff circuit</div>
+              <p class="route-note">Every itinerary is flexible. Routes, timing and destinations may change depending on weather, road conditions and guest preferences.</p>
+            </div>
+
+            <div class="tour-actions">
+              <button class="btn btn-primary" data-tour="Banff, Lake Louise, Bow Falls & Surprise Corner">Book this tour</button>
+              <a class="btn btn-outline" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour 2 -->
+        <article class="tour">
+          <div class="tour-head">
+            <div class="media" style="background-image:url('images/lake-louise.jpg')"></div>
+            <div class="tour-meta">
+              <h3>Lake Louise & Moraine Lake</h3>
+              <p class="summary">Iconic turquoise lakes and short scenic walks. Moraine Lake is seasonal — we advise planning ahead.</p>
+              <ul class="quick-features"><li>Suggested departure: 07:30</li><li>Suggested return: 17:00</li><li>Duration: ~9 hours</li></ul>
+            </div>
+          </div>
+
+          <div class="tour-body">
+            <h4>Stops (in order)</h4>
+            <ol class="stops"><li>Calgary</li><li>Banff</li><li>Lake Louise</li><li>Moraine Lake</li><li>Calgary (return)</li></ol>
+
+            <h4>Route & Distance</h4>
+            <ol class="timeline">
+              <li><span class="stop">Calgary → Banff</span><span class="meta">130 km • 1h 30m</span></li>
+              <li><span class="stop">Banff → Lake Louise</span><span class="meta">60 km • 45m</span></li>
+              <li><span class="stop">Lake Louise → Moraine Lake</span><span class="meta">14 km • 20m (seasonal)</span></li>
+              <li><span class="stop">Lake Louise → Calgary</span><span class="meta">185 km • 2h</span></li>
+            </ol>
+
+            <div class="map-and-note">
+              <div class="map-placeholder">Map placeholder — Lake Louise loop</div>
+              <p class="route-note">Every itinerary is flexible. Routes, timing and destinations may change depending on weather, road conditions and guest preferences.</p>
+            </div>
+
+            <div class="tour-actions">
+              <button class="btn btn-primary" data-tour="Lake Louise & Moraine Lake">Book this tour</button>
+              <a class="btn btn-outline" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour 3 -->
+        <article class="tour">
+          <div class="tour-head">
+            <div class="media" style="background-image:url('images/emerald-lake.jpg')"></div>
+            <div class="tour-meta">
+              <h3>Yoho National Park & Emerald Lake</h3>
+              <p class="summary">A quieter, nature-focused day through Yoho National Park to Emerald Lake and the Natural Bridge.</p>
+              <ul class="quick-features"><li>Suggested departure: 08:00</li><li>Suggested return: 18:00</li><li>Duration: ~10 hours</li></ul>
+            </div>
+          </div>
+
+          <div class="tour-body">
+            <h4>Stops (in order)</h4>
+            <ol class="stops"><li>Calgary</li><li>Lake Louise</li><li>Natural Bridge</li><li>Emerald Lake</li><li>Calgary (return)</li></ol>
+
+            <h4>Route & Distance</h4>
+            <ol class="timeline">
+              <li><span class="stop">Calgary → Lake Louise</span><span class="meta">185 km • 2h</span></li>
+              <li><span class="stop">Lake Louise → Natural Bridge</span><span class="meta">15 km • 15m</span></li>
+              <li><span class="stop">Natural Bridge → Emerald Lake</span><span class="meta">9 km • 10m</span></li>
+              <li><span class="stop">Emerald Lake → Calgary</span><span class="meta">205 km • 2h 20m</span></li>
+            </ol>
+
+            <div class="map-and-note">
+              <div class="map-placeholder">Map placeholder — Yoho & Emerald Lake</div>
+              <p class="route-note">Every itinerary is flexible. Routes, timing and destinations may change depending on weather, road conditions and guest preferences.</p>
+            </div>
+
+            <div class="tour-actions">
+              <button class="btn btn-primary" data-tour="Yoho National Park & Emerald Lake">Book this tour</button>
+              <a class="btn btn-outline" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour 4 -->
+        <article class="tour">
+          <div class="tour-head">
+            <div class="media" style="background-image:url('images/marble-canyon.jpg')"></div>
+            <div class="tour-meta">
+              <h3>Marble Canyon & Radium Hot Springs</h3>
+              <p class="summary">Canyon viewpoints and optional hot springs relaxation — a scenic day through Kootenay country.</p>
+              <ul class="quick-features"><li>Suggested departure: 07:30</li><li>Suggested return: 18:30</li><li>Duration: ~11 hours</li></ul>
+            </div>
+          </div>
+
+          <div class="tour-body">
+            <h4>Stops (in order)</h4>
+            <ol class="stops"><li>Calgary</li><li>Banff</li><li>Marble Canyon</li><li>Radium Hot Springs</li><li>Canmore</li><li>Calgary (return)</li></ol>
+
+            <h4>Route & Distance</h4>
+            <ol class="timeline">
+              <li><span class="stop">Calgary → Banff</span><span class="meta">130 km • 1h 30m</span></li>
+              <li><span class="stop">Banff → Marble Canyon</span><span class="meta">45 km • 35m</span></li>
+              <li><span class="stop">Marble Canyon → Radium Hot Springs</span><span class="meta">40 km • 35m</span></li>
+              <li><span class="stop">Radium → Canmore</span><span class="meta">105 km • 1h 15m</span></li>
+              <li><span class="stop">Canmore → Calgary</span><span class="meta">105 km • 1h</span></li>
+            </ol>
+
+            <div class="map-and-note">
+              <div class="map-placeholder">Map placeholder — Marble Canyon & Radium</div>
+              <p class="route-note">Every itinerary is flexible. Routes, timing and destinations may change depending on weather, road conditions and guest preferences.</p>
+            </div>
+
+            <div class="tour-actions">
+              <button class="btn btn-primary" data-tour="Marble Canyon & Radium Hot Springs">Book this tour</button>
+              <a class="btn btn-outline" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour 5 -->
+        <article class="tour">
+          <div class="tour-head">
+            <div class="media" style="background-image:url('images/icefields.jpg')"></div>
+            <div class="tour-meta">
+              <h3>Icefields Parkway Explorer</h3>
+              <p class="summary">A breathtaking drive along the Icefields Parkway with glacier views and pristine alpine lakes.</p>
+              <ul class="quick-features"><li>Suggested departure: 07:00</li><li>Suggested return: 19:00</li><li>Duration: ~12 hours</li></ul>
+            </div>
+          </div>
+
+          <div class="tour-body">
+            <h4>Stops (in order)</h4>
+            <ol class="stops"><li>Calgary</li><li>Lake Louise</li><li>Bow Lake</li><li>Peyto Lake</li><li>Crowfoot Glacier</li><li>Return to Calgary</li></ol>
+
+            <h4>Route & Distance</h4>
+            <ol class="timeline">
+              <li><span class="stop">Calgary → Lake Louise</span><span class="meta">185 km • 2h</span></li>
+              <li><span class="stop">Lake Louise → Bow Lake</span><span class="meta">38 km • 30m</span></li>
+              <li><span class="stop">Bow Lake → Peyto Lake</span><span class="meta">6 km • 8m</span></li>
+              <li><span class="stop">Peyto Lake → Crowfoot Glacier</span><span class="meta">5 km • 5m</span></li>
+              <li><span class="stop">Peyto Lake → Calgary</span><span class="meta">225 km • 2h 45m</span></li>
+            </ol>
+
+            <div class="map-and-note">
+              <div class="map-placeholder">Map placeholder — Icefields Parkway</div>
+              <p class="route-note">Every itinerary is flexible. Routes, timing and destinations may change depending on weather, road conditions and guest preferences.</p>
+            </div>
+
+            <div class="tour-actions">
+              <button class="btn btn-primary" data-tour="Icefields Parkway Explorer">Book this tour</button>
+              <a class="btn btn-outline" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour 6 -->
+        <article class="tour">
+          <div class="tour-head">
+            <div class="media" style="background-image:url('images/drumheller.jpg')"></div>
+            <div class="tour-meta">
+              <h3>Drumheller Dinosaur Escape</h3>
+              <p class="summary">Explore the Badlands, visit the Royal Tyrrell Museum and walk among iconic hoodoos.</p>
+              <ul class="quick-features"><li>Suggested departure: 08:00</li><li>Suggested return: 17:30</li><li>Duration: ~9.5 hours</li></ul>
+            </div>
+          </div>
+
+          <div class="tour-body">
+            <h4>Stops (in order)</h4>
+            <ol class="stops"><li>Calgary</li><li>Horseshoe Canyon</li><li>Royal Tyrrell Museum</li><li>Hoodoos</li><li>Drumheller → Calgary</li></ol>
+
+            <h4>Route & Distance</h4>
+            <ol class="timeline">
+              <li><span class="stop">Calgary → Horseshoe Canyon</span><span class="meta">130 km • 1h 35m</span></li>
+              <li><span class="stop">Horseshoe Canyon → Royal Tyrrell Museum</span><span class="meta">18 km • 20m</span></li>
+              <li><span class="stop">Royal Tyrrell Museum → Hoodoos</span><span class="meta">17 km • 20m</span></li>
+              <li><span class="stop">Drumheller → Calgary</span><span class="meta">135 km • 1h 40m</span></li>
+            </ol>
+
+            <div class="map-and-note">
+              <div class="map-placeholder">Map placeholder — Drumheller Badlands</div>
+              <p class="route-note">Every itinerary is flexible. Routes, timing and destinations may change depending on weather, road conditions and guest preferences.</p>
+            </div>
+
+            <div class="tour-actions">
+              <button class="btn btn-primary" data-tour="Drumheller Dinosaur Escape">Book this tour</button>
+              <a class="btn btn-outline" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tour 7 -->
+        <article class="tour">
+          <div class="tour-head">
+            <div class="media" style="background-image:url('images/icefields.jpg')"></div>
+            <div class="tour-meta">
+              <h3>Fully Customized Rockies Experience</h3>
+              <p class="summary">Design the day you want — photography-focused, gentle walks, or a mixed highlight route. We’ll build it around your wishes.</p>
+              <ul class="quick-features"><li>Suggested departure: Flexible</li><li>Suggested return: Flexible</li><li>Duration: 4–12+ hours (custom)</li></ul>
+            </div>
+          </div>
+
+          <div class="tour-body">
+            <h4>Typical Stops (examples)</h4>
+            <ol class="stops"><li>Calgary → Banff → Lake Louise → Peyto Lake</li></ol>
+
+            <h4>Route & Distance (example)</h4>
+            <ol class="timeline">
+              <li><span class="stop">Calgary → Banff</span><span class="meta">130 km • 1h 30m</span></li>
+              <li><span class="stop">Banff → Lake Louise</span><span class="meta">60 km • 45m</span></li>
+              <li><span class="stop">Lake Louise → Peyto Lake</span><span class="meta">44 km • 40m</span></li>
+            </ol>
+
+            <div class="map-and-note">
+              <div class="map-placeholder">Map placeholder — Custom route preview</div>
+              <p class="route-note">Every itinerary is flexible. Routes, timing and destinations may change depending on weather, road conditions and guest preferences.</p>
+            </div>
+
+            <div class="tour-actions">
+              <button class="btn btn-primary" data-tour="Fully Customized Rockies Experience">Create my route</button>
+              <a class="btn btn-outline" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section faq container">
+      <h2>FAQ</h2>
+      <div class="faq-list">
+        <details>
+          <summary>What vehicle do you use?</summary>
+          <p>We provide a Black Chevrolet Tahoe SUV — luxury, spacious and comfortable for up to 6 guests with luggage.</p>
+        </details>
+        <details>
+          <summary>Are child seats available?</summary>
+          <p>Yes — we carry child seats and will fit them as requested when you book.</p>
+        </details>
+        <details>
+          <summary>Do you offer airport transfers?</summary>
+          <p>Yes — complimentary one-way Airport or Downtown Calgary transfer is included for guests who purchase a tour.</p>
+        </details>
+        <details>
+          <summary>Can I change the itinerary on the day?</summary>
+          <p>Absolutely. Every itinerary is flexible and may change based on weather, road conditions and guest preferences.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Contact / Book -->
+    <section id="contact" class="section contact container">
+      <h2>Contact & Booking</h2>
+      <div class="contact-grid">
+        <form id="booking-form" class="booking-form" novalidate>
+          <label for="fullname">Full name</label>
+          <input id="fullname" name="fullname" type="text" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" value="587-893-6384" />
+
+          <label for="tour-select">Tour</label>
+          <select id="tour-select" name="tour">
+            <option>Banff, Lake Louise, Bow Falls & Surprise Corner</option>
+            <option>Lake Louise & Moraine Lake</option>
+            <option>Yoho National Park & Emerald Lake</option>
+            <option>Marble Canyon & Radium Hot Springs</option>
+            <option>Icefields Parkway Explorer</option>
+            <option>Drumheller Dinosaur Escape</option>
+            <option>Fully Customized Rockies Experience</option>
+          </select>
+
+          <label for="passengers">Passengers (max 6)</label>
+          <input id="passengers" name="passengers" type="number" min="1" max="6" value="2" required />
+
+          <label class="checkbox"><input id="child-seat" type="checkbox" name="childSeat" /> Child seat required</label>
+
+          <label for="notes">Notes / Custom requests</label>
+          <textarea id="notes" name="notes" rows="4" placeholder="E.g., photography stops, short hikes, special celebrations"></textarea>
+
+          <p class="info-small"><strong>Complimentary:</strong> One-way airport or downtown Calgary transfer included for confirmed tour bookings.</p>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Send Booking Request</button>
+            <button type="reset" class="btn btn-outline">Reset</button>
+          </div>
+
+          <div id="form-msg" class="form-msg" aria-live="polite"></div>
+        </form>
+
+        <aside class="contact-details">
+          <h3>Contact</h3>
+          <p><strong>Rockies Custom Tours</strong><br/>Calgary, Alberta, Canada</p>
+          <p>Phone: <a href="tel:+15878936384">587-893-6384</a><br/>Email: <a href="mailto:info@rockiescustomtours.ca">info@rockiescustomtours.ca</a></p>
+
+          <h4>Vehicle & Service</h4>
+          <p>Black Chevrolet Tahoe — up to 6 guests. Premium coffee, tea, snacks and bottled water provided. Photography stops included.</p>
+
+          <h4>Image guidance</h4>
+          <p>Use ONLY Canadian Rockies destination images with the exact filenames listed in the repository. Do NOT add tropical, desert or unrelated photos.</p>
+        </aside>
+      </div>
+    </section>
+
   </main>
 
-  <footer>
-    <p>© 2026 Rockies Custom Tours. Private luxury SUV tours from Calgary.</p>
-    <p>Instagram: @rockiescustomtours</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Rockies Custom Tours — Luxury Black Edition</div>
+      <div class="socials">Instagram · Facebook</div>
+    </div>
   </footer>
 
   <script src="script.js"></script>
